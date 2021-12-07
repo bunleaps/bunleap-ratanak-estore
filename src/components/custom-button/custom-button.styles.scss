@@ -5,11 +5,13 @@
   letter-spacing: 0.5px;
   line-height: 50px;
   padding: 0 35px 0 35px;
+  margin: 5px;
   font-size: 15px;
   background-color: black;
   color: white;
   text-transform: uppercase;
-  font-family: 'Open Sans Condensed';
+  // font-family: 'Open Sans Condensed';
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bolder;
   border: none;
   cursor: pointer;
@@ -25,6 +27,7 @@
   &.google-sign-in{
     background-color: #4285f4;
     color: white;
+    font-size: 50%; // need font assistant to make it look fine and full sentence 
 
     &:hover{
       background-color: #357ae8;
